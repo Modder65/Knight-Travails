@@ -29,7 +29,7 @@ function knightMoves(start, end) {
   // Queue for BFS; keeps track of unexplored positions
   const queue = [];
 
-  // Keeps track of already visited squares; Uses a 2D array of booleans
+  // Keeps track of already visited squares
   const visited = new Set();
 
   // Adds starting position & the currently traveled path to the queue
